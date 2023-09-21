@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;       
+
+
+
+input[type="text"],input[type="password"],input[type="email"],input[type="number"],input[type="tel"],textarea{
+    @apply w-full border my-3 px-3 py-2  ;
+  }
+  textarea{
+    height: 160px;
+  }
+  textarea{
+    height: 160px;
+  }
+  input[type="submit"]{
+    background-color: #0284c7;
+    @apply w-full p-2 text-white rounded-xl
+  }
+  button.sky{
+    background-color: #0284c7;
+    @apply w-full p-2 text-white rounded-xl
+  }
